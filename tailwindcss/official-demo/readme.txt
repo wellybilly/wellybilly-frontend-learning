@@ -3,6 +3,7 @@
 > npm install tailwindcss postcss-cli autoprefixer@9.0.0
 > npx tailwind init //create tailwind config
 
+> npm run build
 > npm install -g live-server
 
 ##notice 
