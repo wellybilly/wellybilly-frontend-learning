@@ -9,3 +9,5 @@
 ##notice 
 -- Error: PostCSS plugin autoprefixer requires PostCSS 8. So the autoprefixer can't be @10.0.0
 -- Tailwind 2.0 is comming with two breaking changes: removeDeprecatedGapUtilities, purgeLayersByDefault
+
+##Include in Composing-utilityes-with-apply exercise
