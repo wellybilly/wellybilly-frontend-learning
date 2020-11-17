@@ -6,6 +6,9 @@ const app = Vue.createApp({
     };
   },
   methods: {
+    resetInput(){
+this.name =''; 
+    },
     setName(event, lastName) {
       this.name = event.target.value + ' ' + lastName;
     },
