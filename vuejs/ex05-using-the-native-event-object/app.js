@@ -5,6 +5,15 @@ const app = Vue.createApp({
       name: '',
     };
   },
+  watch: {
+    //whenever property name changes, this method will be executed.
+    name(oldValue, newValue) {},
+    counter(value) {
+      if (value > 50) {
+        this.counter = 0;
+      }
+    },
+  },
   computed: {
     fullName() {
       console.log("It's running only depended on the event firing.");
